@@ -1,19 +1,14 @@
 package model;
 
 public class Customer {
-    private String customerId;
     private String name;
+    private String customerId;
 
-    public Customer(String customerId, String name) {
-        this.customerId = customerId;
+    public Customer(String name, String customerId) {
         this.name = name;
+        this.customerId = customerId;
     }
 
-    public String getCustomerId() {
-        return customerId;
-    }
-
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
+    public String getCustomerId() { return customerId; }
 }

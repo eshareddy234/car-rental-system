@@ -1,145 +1,143 @@
-# Car Rental Management System (Java OOP)
+# 🚗 Car Rental Management System (Java OOP)
 
-A simple console-based **Car Rental Management System** built using **Java and Object-Oriented Programming (OOP)** concepts.
+A console-based **Car Rental Management System** built using **Java** that demonstrates all **four Object-Oriented Programming (OOP) pillars**:  
+**Encapsulation, Abstraction, Inheritance, and Polymorphism.**
 
-This project allows users to:
-- View available cars
-- Rent a car
-- Return a car
-- Generate rental records
+The system allows users to interact through a menu-driven interface to manage car rentals.
 
 ---
 
-## Technologies Used
+## ✨ Features
+- View available cars
+- Rent a car
+- Return a car
+- Dynamic price calculation
+- Menu-driven console system
+- Supports multiple vehicle types
+
+---
+
+## 🛠 Technologies Used
 - Java
-- OOP Concepts (Encapsulation, Abstraction)
+- OOP (Encapsulation, Abstraction, Inheritance, Polymorphism)
 - ArrayList
 - IntelliJ IDEA
 - Git & GitHub
 
 ---
 
-## Features
-- Add and manage cars
-- Customer registration
-- Rent & return functionality
-- Price calculation based on days
-- Console-based menu system
+## 🧠 OOP Concepts Used
+
+| Pillar | Implementation |
+|--------|----------------|
+| Encapsulation | Private fields in `Customer` |
+| Abstraction | `abstract class Vehicle` |
+| Inheritance | `Car` and `LuxuryCar` extend `Vehicle` |
+| Polymorphism | Overridden `calculatePrice()` |
 
 ---
 
-## Project Structure
-src/  
-├── model/  
-│   ├── Car.java  
-│   ├── Customer.java  
-│   └── Rental.java  
-├── service/  
-│   └── CarRentalSystem.java  
-└── Main.java  
-
+## 📁 Project Structure
+src/
+├── model/
+│   ├── Vehicle.java
+│   ├── Car.java
+│   ├── LuxuryCar.java
+│   ├── Customer.java
+│   └── Rental.java
+├── service/
+│   └── CarRentalSystem.java
+└── Main.java
 
 ## Sample Console Output
 
-===== CAR RENTAL SYSTEM =====
-1. Rent Car
-2. Return Car
-3. Show All Cars
-4. Show All Rentals
-5. Total Revenue
-6. Exit
-Enter choice: 3
+====== 🚗 Car Rental System ======
+1. View Available Cars
+2. Rent a Car
+3. Return a Car
+4. Exit
+   Enter choice: 1
 
---- ALL CARS REPORT ---  
-C1 | Toyota | Camry | Available  
-C2 | Honda | City | Available  
-C3 | Mahindra | Thar | Available  
-C4 | Hyundai | Creta | Available  
+--- Available Cars ---
+C1 - Toyota Innova
+C2 - Honda City
+C3 - Hyundai Creta
+L1 - BMW X5
+L2 - Audi A6
 
-===== CAR RENTAL SYSTEM =====
-1. Rent Car
-2. Return Car
-3. Show All Cars
-4. Show All Rentals
-5. Total Revenue
-6. Exit
-Enter choice: 1
+====== 🚗 Car Rental System ======
+1. View Available Cars
+2. Rent a Car
+3. Return a Car
+4. Exit
+   Enter choice: 2
 
-Enter customer name: Esha  
+--- Available Cars ---
+C1 - Toyota Innova
+C2 - Honda City
+C3 - Hyundai Creta
+L1 - BMW X5
+L2 - Audi A6
+Enter Vehicle ID: L2
+Enter your name: Esha
+Enter number of days: 2
+Customer: Esha
+Vehicle: Audi A6
+Days: 2
+Price per day: 5000.0
+Total Price: ₹10000.0
 
-Available Cars:  
-C1 - Toyota Camry - Rent/day: 10000.0  
-C2 - Honda City - Rent/day: 12000.0  
-C3 - Mahindra Thar - Rent/day: 20000.0  
-C4 - Hyundai Creta - Rent/day: 15000.0  
+====== 🚗 Car Rental System ======
+1. View Available Cars
+2. Rent a Car
+3. Return a Car
+4. Exit
+   Enter choice: 1
 
-Enter Car ID: C3
-Enter rental days: 2
+--- Available Cars ---
+C1 - Toyota Innova
+C2 - Honda City
+C3 - Hyundai Creta
+L1 - BMW X5
 
-Total price: ₹40000.0  
-Confirm rental (Y/N): Y  
-Car rented successfully!  
+====== 🚗 Car Rental System ======
+1. View Available Cars
+2. Rent a Car
+3. Return a Car
+4. Exit
+   Enter choice: 3
+   Enter Vehicle ID to return: L6
+   ❌ Invalid car ID or car already available.
 
-===== CAR RENTAL SYSTEM =====
-1. Rent Car
-2. Return Car
-3. Show All Cars
-4. Show All Rentals
-5. Total Revenue
-6. Exit
-Enter choice: 3
+====== 🚗 Car Rental System ======
+1. View Available Cars
+2. Rent a Car
+3. Return a Car
+4. Exit
+   Enter choice: 3
+   Enter Vehicle ID to return: L2
+   ✅ Car returned successfully.
 
---- ALL CARS REPORT ---  
-C1 | Toyota | Camry | Available  
-C2 | Honda | City | Available  
-C3 | Mahindra | Thar | Rented  
-C4 | Hyundai | Creta | Available  
+====== 🚗 Car Rental System ======
+1. View Available Cars
+2. Rent a Car
+3. Return a Car
+4. Exit
+   Enter choice: 1
 
-===== CAR RENTAL SYSTEM =====
-1. Rent Car
-2. Return Car
-3. Show All Cars
-4. Show All Rentals
-5. Total Revenue
-6. Exit
-Enter choice: 4
+--- Available Cars ---
+C1 - Toyota Innova
+C2 - Honda City
+C3 - Hyundai Creta
+L1 - BMW X5
+L2 - Audi A6
 
---- RENTAL REPORT ---  
-Esha rented Mahindra for 2 days
-
-===== CAR RENTAL SYSTEM =====
-1. Rent Car
-2. Return Car
-3. Show All Cars
-4. Show All Rentals
-5. Total Revenue
-6. Exit
-Enter choice: 5
-
-Total Revenue: ₹40000.0  
-
-===== CAR RENTAL SYSTEM =====
-1. Rent Car
-2. Return Car
-3. Show All Cars
-4. Show All Rentals
-5. Total Revenue
-6. Exit
-Enter choice: 2
-
-Enter Car ID to return: C3  
-Car returned successfully!  
-
-===== CAR RENTAL SYSTEM =====
-1. Rent Car
-2. Return Car
-3. Show All Cars
-4. Show All Rentals
-5. Total Revenue
-6. Exit
-Enter choice: 6
-Thank you for using system!
+====== 🚗 Car Rental System ======
+1. View Available Cars
+2. Rent a Car
+3. Return a Car
+4. Exit
+   Enter choice: 4
+   ====== 👋 Thank you! ======
 
 Process finished with exit code 0
-
-
