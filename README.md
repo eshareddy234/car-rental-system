@@ -31,12 +31,12 @@ This project allows users to:
 ## Project Structure
 src/  
 ├── model/  
-│   ├── Car.java
-│   ├── Customer.java
-│   └── Rental.java
-├── service/
-│   └── CarRentalSystem.java
-└── Main.java
+│   ├── Car.java  
+│   ├── Customer.java  
+│   └── Rental.java  
+├── service/  
+│   └── CarRentalSystem.java  
+└── Main.java  
 
 
 ## Sample Console Output
@@ -51,10 +51,10 @@ src/
 Enter choice: 3
 
 --- ALL CARS REPORT ---
-C1 | Toyota | Camry | Available
-C2 | Honda | City | Available
-C3 | Mahindra | Thar | Available
-C4 | Hyundai | Creta | Available
+C1 | Toyota | Camry | Available  
+C2 | Honda | City | Available  
+C3 | Mahindra | Thar | Available  
+C4 | Hyundai | Creta | Available  
 
 ===== CAR RENTAL SYSTEM =====
 1. Rent Car
@@ -65,20 +65,20 @@ C4 | Hyundai | Creta | Available
 6. Exit
 Enter choice: 1
 
-Enter customer name: Esha
+Enter customer name: Esha  
 
 Available Cars:
-C1 - Toyota Camry - Rent/day: 10000.0
-C2 - Honda City - Rent/day: 12000.0
-C3 - Mahindra Thar - Rent/day: 20000.0
-C4 - Hyundai Creta - Rent/day: 15000.0
+C1 - Toyota Camry - Rent/day: 10000.0  
+C2 - Honda City - Rent/day: 12000.0  
+C3 - Mahindra Thar - Rent/day: 20000.0  
+C4 - Hyundai Creta - Rent/day: 15000.0  
 
 Enter Car ID: C3
 Enter rental days: 2
 
-Total price: ₹40000.0
-Confirm rental (Y/N): Y
-Car rented successfully!
+Total price: ₹40000.0  
+Confirm rental (Y/N): Y  
+Car rented successfully!  
 
 ===== CAR RENTAL SYSTEM =====
 1. Rent Car
@@ -89,11 +89,11 @@ Car rented successfully!
 6. Exit
 Enter choice: 3
 
---- ALL CARS REPORT ---
-C1 | Toyota | Camry | Available
-C2 | Honda | City | Available
-C3 | Mahindra | Thar | Rented
-C4 | Hyundai | Creta | Available
+--- ALL CARS REPORT ---  
+C1 | Toyota | Camry | Available  
+C2 | Honda | City | Available  
+C3 | Mahindra | Thar | Rented  
+C4 | Hyundai | Creta | Available  
 
 ===== CAR RENTAL SYSTEM =====
 1. Rent Car
@@ -104,7 +104,7 @@ C4 | Hyundai | Creta | Available
 6. Exit
 Enter choice: 4
 
---- RENTAL REPORT ---
+--- RENTAL REPORT ---  
 Esha rented Mahindra for 2 days
 
 ===== CAR RENTAL SYSTEM =====
@@ -116,7 +116,7 @@ Esha rented Mahindra for 2 days
 6. Exit
 Enter choice: 5
 
-Total Revenue: ₹40000.0
+Total Revenue: ₹40000.0  
 
 ===== CAR RENTAL SYSTEM =====
 1. Rent Car
@@ -127,8 +127,8 @@ Total Revenue: ₹40000.0
 6. Exit
 Enter choice: 2
 
-Enter Car ID to return: C3
-Car returned successfully!
+Enter Car ID to return: C3  
+Car returned successfully!  
 
 ===== CAR RENTAL SYSTEM =====
 1. Rent Car
