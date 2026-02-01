@@ -93,7 +93,9 @@ Total Price: ₹10000.0
 2. Rent a Car
 3. Return a Car
 4. Exit
-Enter choice: 1
+
+Enter choice: 1  
+
 --- Available Cars ---  
 C1 - Toyota Innova  
 C2 - Honda City  
@@ -141,6 +143,7 @@ L2 - Audi A6
 3. Return a Car
 4. Exit
 Enter choice: 4
-   ====== 👋 Thank you! ======
+
+====== 👋 Thank you! ======
 
 Process finished with exit code 0
