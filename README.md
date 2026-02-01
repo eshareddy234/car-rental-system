@@ -29,8 +29,8 @@ This project allows users to:
 ---
 
 ## Project Structure
-src/
-├── model/
+src/  
+├── model/  
 │   ├── Car.java
 │   ├── Customer.java
 │   └── Rental.java
