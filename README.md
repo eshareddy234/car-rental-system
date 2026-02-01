@@ -50,7 +50,7 @@ src/
 6. Exit
 Enter choice: 3
 
---- ALL CARS REPORT ---
+--- ALL CARS REPORT ---  
 C1 | Toyota | Camry | Available  
 C2 | Honda | City | Available  
 C3 | Mahindra | Thar | Available  
@@ -67,7 +67,7 @@ Enter choice: 1
 
 Enter customer name: Esha  
 
-Available Cars:
+Available Cars:  
 C1 - Toyota Camry - Rent/day: 10000.0  
 C2 - Honda City - Rent/day: 12000.0  
 C3 - Mahindra Thar - Rent/day: 20000.0  
