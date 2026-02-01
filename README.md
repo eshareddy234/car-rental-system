@@ -56,9 +56,9 @@ src/
 2. Rent a Car
 3. Return a Car
 4. Exit
-   Enter choice: 1
+Enter choice: 1
 
---- Available Cars ---
+--- Available Cars ---  
 C1 - Toyota Innova  
 C2 - Honda City  
 C3 - Hyundai Creta  
@@ -70,14 +70,13 @@ L2 - Audi A6
 2. Rent a Car
 3. Return a Car
 4. Exit
+Enter choice: 2
 
-   Enter choice: 2
-
---- Available Cars ---
-C1 - Toyota Innova
-C2 - Honda City
-C3 - Hyundai Creta
-L1 - BMW X5
+--- Available Cars ---  
+C1 - Toyota Innova  
+C2 - Honda City  
+C3 - Hyundai Creta  
+L1 - BMW X5  
 L2 - Audi A6  
 
 Enter Vehicle ID: L2  
@@ -94,24 +93,13 @@ Total Price: ₹10000.0
 2. Rent a Car
 3. Return a Car
 4. Exit
-   
-   Enter choice: 1
-
---- Available Cars ---
-C1 - Toyota Innova
-C2 - Honda City
-C3 - Hyundai Creta
-L1 - BMW X5
-
-====== 🚗 Car Rental System ======
-1. View Available Cars
-2. Rent a Car
-3. Return a Car
-4. Exit
-   
-   Enter choice: 3
-   Enter Vehicle ID to return: L6
-   ❌ Invalid car ID or car already available.
+Enter choice: 1
+--- Available Cars ---  
+C1 - Toyota Innova  
+C2 - Honda City  
+C3 - Hyundai Creta  
+L1 - BMW X5  
+L2 - Audi A6  
 
 ====== 🚗 Car Rental System ======
 1. View Available Cars
@@ -119,31 +107,40 @@ L1 - BMW X5
 3. Return a Car
 4. Exit
    
-   Enter choice: 3
-   Enter Vehicle ID to return: L2
-   ✅ Car returned successfully.
+Enter choice: 3  
+Enter Vehicle ID to return: L6  
+❌ Invalid car ID or car already available.  
 
 ====== 🚗 Car Rental System ======
 1. View Available Cars
 2. Rent a Car
 3. Return a Car
 4. Exit
-   
-   Enter choice: 1
 
---- Available Cars ---
-C1 - Toyota Innova
-C2 - Honda City
-C3 - Hyundai Creta
-L1 - BMW X5
-L2 - Audi A6
+Enter choice: 3  
+Enter Vehicle ID to return: L2  
+✅ Car returned successfully.  
 
 ====== 🚗 Car Rental System ======
 1. View Available Cars
 2. Rent a Car
 3. Return a Car
 4. Exit
-   Enter choice: 4
+Enter choice: 1
+
+--- Available Cars ---  
+C1 - Toyota Innova  
+C2 - Honda City  
+C3 - Hyundai Creta  
+L1 - BMW X5  
+L2 - Audi A6  
+
+====== 🚗 Car Rental System ======
+1. View Available Cars
+2. Rent a Car
+3. Return a Car
+4. Exit
+Enter choice: 4
    ====== 👋 Thank you! ======
 
 Process finished with exit code 0
