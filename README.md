@@ -31,12 +31,13 @@ This project allows users to:
 ## Project Structure
 src/
 ├── model/
-│ ├── Car.java
-│ ├── Customer.java
-│ └── Rental.java
+│   ├── Car.java
+│   ├── Customer.java
+│   └── Rental.java
 ├── service/
-│ └── CarRentalSystem.java
+│   └── CarRentalSystem.java
 └── Main.java
+
 
 ## Sample Console Output
 
